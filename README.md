@@ -8,9 +8,9 @@ decision, alongside live IP byte and buffer counts.
 
 ![Offline interface with synthetic data](docs/app.png)
 
-**Engineering preview for Windows 10 2004+ / Windows 11 x64.** The private KMDF/WFP
-driver requires Microsoft signing before an installable package can be released.
-The preview download contains the application, SDK and source examples. See
+**Microsoft-signed evaluation bundle for Windows x64.** Download the application,
+SDK, examples and self-contained UI/console installers together. Windows 10 2004+
+and Windows 11 are build targets; see
 [validation](docs/VALIDATION.md) for the tests actually performed and their limits.
 
 ## What you can do
@@ -35,9 +35,9 @@ integration tool, not a tamper-resistant enterprise firewall or boot-time policy
 ## Install and run
 
 1. Download the complete Windows x64 ZIP from [Releases](https://github.com/titanfyre/Titan-Network-Filter/releases).
-2. Before Microsoft signing is completed, use `TitanNetworkFilter.exe --preview`
-   to inspect the labelled offline interface. It does not open the driver.
-3. When the signed bundle is available, run `NetworkFilterSetup.exe`, choose
+2. Extract the ZIP. For an optional offline tour, use `TitanNetworkFilter.exe --preview`;
+   the labelled synthetic interface does not open the driver.
+3. Run `NetworkFilterSetup.exe`, choose
    **Install / reinstall**, and restart only if Windows requests it. Console
    deployment uses `NetworkFilterSetupConsole.exe /install` or `/uninstall`.
    Installers validate the exact driver identity, Microsoft catalog signature and
@@ -117,7 +117,7 @@ Visual Studio 2022 Desktop C++, CMake 3.20+, Windows SDK, x64:
 ```powershell
 .\Build.ps1
 .\Build.ps1 -Asan
-# Optional, after receiving the signed opaque package:
+# Optional: build self-contained installers using the signed opaque package:
 .\Build.ps1 -DriverPackageDirectory C:\Signed\TitanNetworkFilter
 ```
 
@@ -129,7 +129,8 @@ test for a disposable VM with the matching driver installed.
 
 Application, SDK and example sources: [MIT](LICENSE). Kernel implementation stays
 private. Driver binary evaluation and production redistribution are separate;
-this engineering preview has no trial timer or online activation enforcement.
+this evaluation build has no trial timer or online activation enforcement. See
+`BINARY-LICENSE.txt` in the download for the separate driver evaluation terms.
 
 For **OEM redistribution, a separately named driver, product integration, traffic
 diagnostics or ongoing compatibility/support**, add **`titancsa` on Discord**.
