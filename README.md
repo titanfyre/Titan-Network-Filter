@@ -2,6 +2,17 @@
 
 **Windows kernel network filter driver, native C++ SDK and desktop policy inspector.**
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Full version and commercial licensing**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Mention **Titan Network Filter** and ask about the **full / production version, commercial use or OEM redistribution**.
+>
+> Include your intended use and deployment size to discuss pricing, availability and the appropriate licensing / access instructions.
+<!-- full-version-contact:end -->
+
 Control new inbound and outbound connections on a local Windows PC. Inspect the
 process, addresses, ports, protocol and exact rule ID behind each observed policy
 decision, alongside live IP byte and buffer counts.
