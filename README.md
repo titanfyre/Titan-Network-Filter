@@ -117,11 +117,17 @@ stays enabled. Network decisions never wait for the UI, a server, or a user-mode
 packet round trip. The 250 ms UI refresh affects display only.
 
 Simple static port/IP blocking alone does not require a custom driver: Windows
-already provides WFP management APIs. This project's private callout combines
+already provides WFP management APIs. This project's evaluation callout combines
 bounded runtime rule evaluation and attributed decisions with IP accounting for
 native integrations. It does not claim to be the only way to implement filtering.
 
 ## Build
+
+Demo/evaluation driver source is available; see [driver/README.md](driver/README.md) for
+build instructions and separate evaluation-source terms. Those terms apply to
+Titan-authored driver code. Third-party source licenses and existing application/SDK
+licenses remain applicable. Full/commercial implementation and private signing or
+activation material are excluded.
 
 Visual Studio 2022 Desktop C++, CMake 3.20+, Windows SDK, x64:
 
@@ -138,8 +144,7 @@ test for a disposable VM with the matching driver installed.
 
 ## Commercial integration
 
-Application, SDK and example sources: [MIT](LICENSE). Kernel implementation stays
-private. Driver binary evaluation and production redistribution are separate;
+Application, SDK and example sources: [MIT](LICENSE). Evaluation driver source is documented in [driver/README.md](driver/README.md); full/commercial implementation is excluded. Driver binary evaluation and production redistribution are separate;
 this evaluation build has no trial timer or online activation enforcement. See
 `BINARY-LICENSE.txt` in the download for the separate driver evaluation terms.
 

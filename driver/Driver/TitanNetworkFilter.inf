@@ -1,0 +1,43 @@
+[Version]
+Signature="$Windows NT$"
+Class=System
+ClassGUID={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%Provider%
+CatalogFile=TitanNetworkFilter.cat
+DriverVer=10/25/2026,0.1.0.0
+PnpLockdown=1
+[Manufacturer]
+%Provider%=Models,NTamd64.10.0...19041
+[Models.NTamd64.10.0...19041]
+%Device%=TraceInstall,ROOT\TitanNetworkFilter
+[SourceDisksNames]
+1=%Disk%
+[SourceDisksFiles]
+TitanNetworkFilter.sys=1
+[DestinationDirs]
+DriverFiles=13
+[DriverFiles]
+TitanNetworkFilter.sys
+[TraceInstall.NT]
+CopyFiles=DriverFiles
+[TraceInstall.NT.HW]
+AddReg=DeviceSecurity
+[DeviceSecurity]
+HKR,,Security,0,"D:P(A;;GA;;;SY)(A;;GA;;;BA)"
+HKR,,DeviceCharacteristics,0x00010001,0x00000100
+[TraceInstall.NT.Services]
+AddService=TitanNetworkFilter,0x00000002,TraceService
+[TraceService]
+DisplayName=%Device%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%13%\TitanNetworkFilter.sys
+[TraceInstall.NT.Wdf]
+KmdfService=TitanNetworkFilter,TraceWdf
+[TraceWdf]
+KmdfLibraryVersion=1.31
+[Strings]
+Provider="Titanfyre"
+Device="Titan Network Filter Sensor"
+Disk="Titan Network Filter installation media"
