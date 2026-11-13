@@ -6,12 +6,12 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | titan-network-filter |
 | CPP/conan | published_custom_source_index | [titan-network-filter](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
-| CPP/nuget | account_email_confirmed_requires_matching_trusted_publishing_policy | Titan-Network-Filter.Native |
-| NET/nuget | built_verified_requires_trusted_publishing_policy | TitanNetworkFilter.SDK [Source](Titan-Network-Filter-NET-nuget/) |
+| CPP/nuget | published_payload_verified | [Titan-Network-Filter.Native](https://www.nuget.org/packages/Titan-Network-Filter.Native/0.1.1) |
+| NET/nuget | published_payload_verified | [TitanNetworkFilter.SDK](https://www.nuget.org/packages/TitanNetworkFilter.SDK/1.0.0) |
 | Python/pypi | built_fixture_and_production_verified | titan-network-filter [Source](Titan-Network-Filter-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [titan-network-filter](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [titan-network-filter](https://crates.io/crates/titan-network-filter) [Source](Titan-Network-Filter-Rust-cargo/) |
-| JavaScript/npm | registry_publication_requires_action | [titan-network-filter](https://www.npmjs.com/package/titan-network-filter) [Source](Titan-Network-Filter-JavaScript-npm/) |
+| JavaScript/npm | stopped_before_submission | titan-network-filter [Source](Titan-Network-Filter-JavaScript-npm/) |
 | Java/maven | published_install_verified | [titan-network-filter](https://central.sonatype.com/artifact/io.github.titancsa/titan-network-filter/1.0.0) [Source](Titan-Network-Filter-Java-maven/) |
 | Java/jitpack | published_install_verified | [titan-network-filter](https://jitpack.io/#titanfyre/Titan-Network-Filter/java-sdk-v1.0.0) [Source](Titan-Network-Filter-Java-maven/) |
 | Go/modules | published_install_verified | [titan-network-filter](https://pkg.go.dev/github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules@v1.0.0) [Source](Titan-Network-Filter-Go-modules/) |
