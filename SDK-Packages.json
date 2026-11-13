@@ -137,10 +137,11 @@
       "registry_published": false,
       "consumer_build_verified": true,
       "documentation_bundled": true,
-      "publication_on_hold_by_owner": true
+      "publication_on_hold_by_owner": false,
+      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
     },
     "NET/nuget": {
-      "status": "built_verified_publication_on_hold_by_owner",
+      "status": "built_verified_requires_trusted_publishing_policy",
       "name": "TitanNetworkFilter.SDK",
       "version": "1.0.0",
       "directory": "Titan-Network-Filter-NET-nuget",
@@ -151,7 +152,8 @@
       "module": "titan_network_filter",
       "dll_name": "TitanNetworkFilterJsonSDK.dll",
       "api_prefix": "titan_network_filter_json_",
-      "publication_on_hold_by_owner": true
+      "publication_on_hold_by_owner": false,
+      "nuget_publication_status": "ready_requires_trusted_publishing_policy"
     },
     "Python/pypi": {
       "status": "built_fixture_and_production_verified",
