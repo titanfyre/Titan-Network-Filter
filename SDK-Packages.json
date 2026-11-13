@@ -12,6 +12,76 @@
         ]
       },
       "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Titan-Network-Filter-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "TitanNetworkFilterJsonSDK.dll",
+      "api_prefix": "titan_network_filter_json_"
+    },
+    {
+      "directory": "Titan-Network-Filter-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "titan-network-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-Network-Filter-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "titan-network-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-Network-Filter-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "titan-network-filter",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-Network-Filter-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "titan-network-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-Network-Filter-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "titan-network-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-Network-Filter-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "titan_network_filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-Network-Filter-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "TitanNetworkFilter.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Titan-Network-Filter-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "TitanNetworkFilter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",

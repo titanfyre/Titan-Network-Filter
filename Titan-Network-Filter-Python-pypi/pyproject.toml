@@ -1,0 +1,18 @@
+[build-system]
+requires=["setuptools>=77","wheel>=0.43"]
+build-backend="setuptools.build_meta"
+[project]
+name="titan-network-filter"
+version="1.0.0"
+description="Windows x64 Titan-Network-Filter direct SDK"
+requires-python=">=3.10"
+license="MIT"
+readme="README.md"
+[project.urls]
+Repository="https://github.com/titanfyre/Titan-Network-Filter"
+[tool.setuptools]
+packages=["titan_network_filter"]
+[tool.setuptools.package-data]
+titan_network_filter=["*.dll"]
+[tool.setuptools.data-files]
+"share/titan-network-filter/docs"=["docs/*","LICENSE"]
