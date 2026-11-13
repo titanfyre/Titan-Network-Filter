@@ -68,6 +68,14 @@
       "distribution": "Documented native SDK; registry receipt tracked independently"
     },
     {
+      "directory": "Titan-Network-Filter-JavaScript-npm",
+      "language": "JavaScript",
+      "registry": "npm",
+      "name": "titan-network-filter",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
       "directory": "Titan-Network-Filter-NET-nuget",
       "language": "NET",
       "registry": "nuget",
