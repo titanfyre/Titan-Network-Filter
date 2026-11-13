@@ -1,8 +1,6 @@
 # Titan-Network-Filter .NET8 SDK
 
-Package ID `TitanNetworkFilter.SDK`. NuGet upload remains on hold at owner request.
-
-```csharp
+Package ID `TitanNetworkFilter.SDK`. ```csharp
 using var client=new TitanCSA.Products.TitanNetworkFilter.Client();
 string statusJson=client.Call("status", "{}");
 ```
