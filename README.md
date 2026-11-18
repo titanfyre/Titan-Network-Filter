@@ -162,18 +162,18 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | Conan | `titan-network-filter` | `conan install --requires=titan-network-filter/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Titan-Network-Filter.Native` | `Install-Package Titan-Network-Filter.Native -Version 0.1.1` |
 | NuGet | `TitanNetworkFilter.SDK` | `dotnet add package TitanNetworkFilter.SDK --version 1.0.0` |
-| PyPI | `titan_network_filter` | Commande prevue apres publication : `python -m pip install titan-network-filter==1.0.0` |
+| PyPI | `titan-network-filter` | Commande prevue apres publication : `python -m pip install titan-network-filter==1.0.0` |
 | Conda | `titan-network-filter` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge titan-network-filter` (canal TitanCSA) |
-| crates.io | `titan_network_filter` | `cargo add titan-network-filter@1.0.0` |
-| npm | `titan_network_filter` | Commande prevue apres publication : `npm install titan-network-filter@1.0.0` |
+| crates.io | `titan-network-filter` | `cargo add titan-network-filter@1.0.0` |
+| npm | `titan-network-filter` | Commande prevue apres publication : `npm install titan-network-filter@1.0.0` |
 | Maven Central | `io.github.titancsa:titan-network-filter` | `io.github.titancsa:titan-network-filter:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:Titan-Network-Filter` | `com.github.titanfyre:Titan-Network-Filter:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules` | `go get github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules@v1.0.0` |
-| PowerShell Gallery | `titan_network_filter` | `Install-Module TitanNetworkFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `TitanNetworkFilter` | `Install-Module TitanNetworkFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `titan_network_filter` | Commande prevue apres publication : `dart pub add titan_network_filter:1.0.0` |
-| RubyGems | `titan_network_filter` | `gem install titan-network-filter -v 1.0.0` |
-| Packagist | `titan_network_filter` | Commande prevue apres publication : `composer require titancsa/titan-network-filter:1.0.0` |
+| RubyGems | `titan-network-filter` | `gem install titan-network-filter -v 1.0.0` |
+| Packagist | `titancsa/titan-network-filter` | Commande prevue apres publication : `composer require titancsa/titan-network-filter:1.0.0` |
 
 Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Titan-Network-Filter/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
 
