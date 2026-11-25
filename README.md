@@ -1,5 +1,11 @@
 # Titan Network Filter
 
+<!-- simple-start:start -->
+Check how network rules affect connections from a Windows app.
+
+**Start here.** Read the setup guide and try one rule against a test app.
+<!-- simple-start:end -->
+
 <!-- full-version-contact:start -->
 > [!IMPORTANT]
 > **Full version and commercial licensing**
@@ -192,5 +198,3 @@ Les anciens imports Go et versions JitPack gardent leurs tags. Pour les ancienne
 <!-- central-sdk-packages:end -->
 
 ## Commercial integration and support
-
-
