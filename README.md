@@ -3,7 +3,11 @@
 <!-- simple-start:start -->
 Check how network rules affect connections from a Windows app.
 
-**Start here.** Read the setup guide and try one rule against a test app.
+[First steps](#first-steps) · [Develop](#sdk-and-packages) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
+
+Read the setup guide and try one rule against a test app.
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
@@ -169,32 +173,11 @@ Technical references: [WFP callout design](https://learn.microsoft.com/en-us/win
 [packet buffers and offsets](https://learn.microsoft.com/en-us/windows-hardware/drivers/network/packet-indication-format).
 
 <!-- central-sdk-packages:start -->
-## Paquets et installation
+<a name="paquets-et-installation"></a>
 
-Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Titan-Network-Filter). Choisis le paquet a installer puis execute sa commande dans son dossier.
+## SDK and packages
 
-| Registre | Paquet | Installation / utilisation |
-| --- | --- | --- |
-| vcpkg | `titan-network-filter` | `vcpkg install titan-network-filter:x64-windows` |
-| Conan | `titan-network-filter` | `conan install --requires=titan-network-filter/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `Titan-Network-Filter.Native` | `Install-Package Titan-Network-Filter.Native -Version 0.1.1` |
-| NuGet | `TitanNetworkFilter.SDK` | `dotnet add package TitanNetworkFilter.SDK --version 1.0.0` |
-| PyPI | `titan-network-filter` | Commande prevue apres publication : `python -m pip install titan-network-filter==1.0.0` |
-| Conda | `titan-network-filter` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge titan-network-filter` (canal TitanCSA) |
-| crates.io | `titan-network-filter` | `cargo add titan-network-filter@1.0.0` |
-| npm | `titan-network-filter` | Commande prevue apres publication : `npm install titan-network-filter@1.0.0` |
-| Maven Central | `io.github.titancsa:titan-network-filter` | `io.github.titancsa:titan-network-filter:1.0.0 (pom.xml / Gradle)` |
-| JitPack | `com.github.titanfyre:Titan-Network-Filter` | `com.github.titanfyre:Titan-Network-Filter:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| Go Modules | `github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules` | `go get github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules@v1.0.0` |
-| pkg.go.dev | `github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Titan-Network-Filter/Titan-Network-Filter-Go-modules@v1.0.0` |
-| PowerShell Gallery | `TitanNetworkFilter` | `Install-Module TitanNetworkFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `titan_network_filter` | Commande prevue apres publication : `dart pub add titan_network_filter:1.0.0` |
-| RubyGems | `titan-network-filter` | `gem install titan-network-filter -v 1.0.0` |
-| Packagist | `titancsa/titan-network-filter` | `composer require titancsa/titan-network-filter:1.0.0` |
-
-Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Titan-Network-Filter/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
-
-Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
+Choose a language in the [SDK and package guide](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Titan-Network-Filter#readme) for exact install commands and examples. If your example requires a driver or app, install it separately.
 <!-- central-sdk-packages:end -->
 
 ## Commercial integration and support
